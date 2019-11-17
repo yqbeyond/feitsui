@@ -1,0 +1,1 @@
+{"options":{},"indexes":[{"v":{"$numberInt":"2"},"key":{"_id":{"$numberInt":"1"}},"name":"_id_","ns":"feitsui.lyric"},{"v":{"$numberInt":"2"},"key":{"url":{"$numberDouble":"1.0"}},"name":"idx_url","ns":"feitsui.lyric"}],"uuid":"b833fd1f9c2141a8a5272b7d9a93d14c"}
