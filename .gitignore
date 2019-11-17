@@ -1,7 +1,7 @@
 *.docx
 *.pdf
 *.pyc
-!lyrics/千千阙歌.docx
-!pdf/千千阙歌.pdf
+!lyrics/千千阙歌-26.docx
+!pdf/千千阙歌-26.pdf
 *.zip
 .vscode
