@@ -1,11 +1,11 @@
 # Feitsui Downloader
 
- [翡翠粤语歌 (https://www.feitsui.com)](https://www.feitsui.com/) 词下载器，从翡翠粤语歌词网站下载粤语歌词，存储到MongoDB，并将歌词做成docx和pdf格式（方便有打印需求的人打印）。Just for fun :)
+ [翡翠粤语歌词 (https://www.feitsui.com)](https://www.feitsui.com/) 下载器，从翡翠粤语歌词网站下载粤语歌词，存储到MongoDB，并将歌词做成docx和pdf格式（方便有打印需求的人打印）。Just for fun :)
 
-网站歌词如下：
+**原网站歌词**
 ![](imgs/web.png)
 
-下载制作PDF后效果如下：
+**下载制作PDF后效果**
 ![](imgs/pdf.png)
 # 0. 依赖
 * MongoDB数据库，pymongo
@@ -18,10 +18,12 @@
 
 依次运行`code/spider.py`脚本中注释的3部分,分别爬取**全部歌手信息**、**每位歌手的歌单信息**、**每首歌的歌词**，存入MongoDB。MongoDB中只有两个`Collection`，分别是`singers`和`lyric`，分别存储歌手信息和歌词信息，如下图。
 
-歌手样例
+**歌手**
+
 ![singers.png](imgs/singers.png)
 
-歌词样例
+**歌词**
+
 ![song.png](imgs/song.png)
 
 # 2. 生成docx然后转换pdf
